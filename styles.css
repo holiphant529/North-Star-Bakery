@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf5;
+    color: #3f2f2a
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: 90%
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f3e7dc;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    color: #6f4638;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6f4638;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b98a65
+}
+
+.logo {
+    max-width: 300px;
+    display: block;
+    margin: 30px auto;
+}
+
+main img{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #6f4638;
+    margin-bottom: 12px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+main > section:first-child {
+    text-align: center;
+}
+
+main section {
+    background-color: #fffdf9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+main section:first-child {
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3e7dc;
+    color: #6f4638
+}
+
+.products-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .products-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .products-grid section {
+        flex: 1 1 45%;
+    }
+}
+
+.products-grid section {
+    background-color: #fffdf9;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.products-grid img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.products-grid section {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-grid section img {
+    margin-top: auto;
+}
+
+.about-section {
+    background-color: #fffdf9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bakery-values {
+    text-align: center;
+    font-weight: bold;
+    color: #b98a65;
+    letter-spacing: 1px;
+    margin: 20px 0 30px;
+}
+
+.about-video {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0 30px;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #d8c2b3;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fffdf9;
+}
+
+legend {
+    font-weight: bold;
+    color: #6f4638;
+    padding: 0 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border: 1px solid #cbb5a6;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #6f4638;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b98a65;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
