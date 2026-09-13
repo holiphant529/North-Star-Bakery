@@ -43,15 +43,28 @@
 
     <section>
         <h2>Signature Loaf</h2>
-        <p>Our signature artisan loaf is baked fresh each morning with a crisp crust and soft, hearty center.</p>
+        <p>The loaf that started it all! Baked fresh each morning with a crisp crust and soft hearty center, and plenty of old-fashioned bakery charm.</p>
+        <p>Price range: $8</p>
         <figure>
             <img src="bakery-signature-loaf_c.png" alt="North Star Bakery signature artisan loaf">
-            <figcaption>North Star Bakery's signature artisan loaf, baked fresh each morning.</figcaption>
+            <figcaption>North Star Bakery's signature artisan loaf.</figcaption>
         </figure>
+    </section>
+    <section id="bakery-box" style="grid-column: 1 / -1; width: 100%; text-align: center;">
+        <h2>Build Your Bakery Box</h2>
+        <p>Choose 4 pastries to create your own bakery box.</p>
+
+        <div id="pastry-options" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;"></div>
+
+        <h3>Your Box</h3>
+        <p id="box-message">No pastries selected.</p>
+        <ul id="selected-pastries"></ul>
+        <button type="button" id="clear-box" style="width: auto; margin: 15px auto; display: block;">Clear Box</button>
     </section>
 </main>
 <footer>
     <p>&copy; 2026 North Star Bakery</p>
-</footer>    
+</footer>   
+<script src="script.js?v=2"></script> 
     </body>
 </html>

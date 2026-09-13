@@ -31,17 +31,19 @@
             <h2>Contact and Pre-Order Request</h2>
             <p>Use the form below to send a question or request a bakery pre-order.</p>
 
-            <form>
+            <form id="contact-form" novalidate>
                 <fieldset>
                     <legend>Pre-Order or Inquiry</legend>
 
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name">
+                    <p id="name-error"></p>
 
                     <br><br>
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="text" id="email" name="email">
+                    <p id="email-error"></p>
 
                     <br><br>
 
@@ -85,6 +87,7 @@
     <footer>
         <p>&copy; 2026 North Star Bakery</p>
     </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
